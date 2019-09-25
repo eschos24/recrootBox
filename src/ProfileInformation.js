@@ -2,15 +2,15 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from "react-icons/fa";
 // Import image of your self here:
 //-- For best display purposes, your image should be sqaure (e.g. 300 X 300 px)
-import selfie from "./assets/trevor.png";
+import selfie from "./assets/eric.jpg";
 
 //Import images for your portfolio here:
 //-- For best display purposes, each of these images should have similar porportions
 
-import recrootBox from "./assets/recrootBox_site.png";
+import dotkey from "./assets/dotkey.jpg";
+import xout from "./assets/xout.png";
 import campRank from "./assets/camprank_site.png";
 import blogApp from "./assets/blogapp-site.png";
-import taskyv from "./assets/taskyv_site.png";
 import bookThinks from "./assets/bookThinks.png";
 
 import resume from "./assets/Resume.pdf";
@@ -20,13 +20,13 @@ let darkMode = false;
 
 // Edit person info here
 // -- Bio is best kept to around 5 lines
-let firstName = "Trevor";
-let lastName = "Lane";
+let firstName = "Eric";
+let lastName = "Schofield";
 let title = "Student / Software Developer";
-let bio = `Hey there, I'm currently studying computer science
-   at Brigham Young University and working as a Software
-   Engineering Intern at SimpleNexus.
-   Feel free to reach out, take a look at some things i've built
+let bio = `I am currently studying Computer Science
+   at Brigham Young University and just finished working as a Software
+   Engineering Intern at Google.
+   Feel free to reach out, take a look at some things I've worked on
    here, or checkout my code on github.`;
 
 //Edit links to external accounts or items here (e.g. github, linkedIn, leetcode, resume, etc.)
@@ -38,18 +38,18 @@ let userIcons = true;
 let links = [
   {
     name: "Email",
-    link: "mailto:trevor@trevorlane.net",
+    link: "mailto:eric.w.schofield@gmail.com",
     icon: FaEnvelope
   },
   {
     name: "GitHub",
-    link: "https://github.com/trevorhere",
+    link: "https://github.com/eschos24",
     icon: FaGithub
 
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/hi-there-trevor-here/",
+    link: "https://www.linkedin.com/in/eric-schofield/",
     icon: FaLinkedin
 
   },
@@ -69,41 +69,41 @@ let portfolioTitle = "Recent Projects"
 let portfolioSectionBackgroundColor = "#003344"
 let portfolioItems = [
   {
-    imageUrl: taskyv,
-    title: "Taskyv",
-    description: "Sleek, sexy task manager",
-    link: "https://taskyv.herokuapp.com/"
+    imageUrl: dotkey,
+    title: "DOTKey",
+    description: "Typing for the 21st Century",
+    link: "https://dotkeyboard.com"
   },
   {
-    imageUrl: bookThinks,
-    title: "BookThinks",
-    description: "Book-centric note recorder",
-    link: "https://bookthinks.herokuapp.com/"
+    imageUrl: xout,
+    title: "X-Out",
+    description: "Dice game written in Swift, with over 10k downloads",
+    link: "https://apps.apple.com/us/app/x-out/id1247677776"
   },
-  {
-    imageUrl: recrootBox,
-    title: "Recroot Box",
-    description: "Easy to user porfolio-site template",
-    link: "https://trevorhere.github.io/recrootBox/"
-  },
-  {
-    imageUrl: campRank,
-    title: "CampRank",
-    description: "Post, rank and comment about your favorite campsites",
-    link: "https://desolate-falls-89173.herokuapp.com/"
-  },
-  {
-    imageUrl: blogApp,
-    title: "Blog App",
-    description: "Easy access blog app.",
-    link: "https://boiling-harbor-27900.herokuapp.com"
-  }
+  // {
+  //   imageUrl: bookThinks,
+  //   title: "RecrootBox",
+  //   description: "Easy to user porfolio-site template",
+  //   link: "https://trevorhere.github.io/recrootBox/"
+  // },
+  // {
+  //   imageUrl: campRank,
+  //   title: "CampRank",
+  //   description: "Post, rank and comment about your favorite campsites",
+  //   link: "https://desolate-falls-89173.herokuapp.com/"
+  // },
+  // {
+  //   imageUrl: blogApp,
+  //   title: "Blog App",
+  //   description: "Easy access blog app.",
+  //   link: "https://boiling-harbor-27900.herokuapp.com"
+  // }
 ];
 
 
 // If you do not want the footer to be displayed (it just has a link to the github repo
 // -- for this template ) then you can set showFooter to false and it will go away.
-let showFooter = true;
+let showFooter = false;
 
 export {
   firstName,
